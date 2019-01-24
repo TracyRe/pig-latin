@@ -6,7 +6,7 @@
 
 ### SPECS
 
-* not a word              -> false
+* special characters      -> skip
 * begin with vowel        -> append 'way'
 * word with no vowels     -> append 'ay'
 * begin with 1 consonant  -> move first letter to the end and append 'ay'
