@@ -14,5 +14,8 @@
 * begin with 3 consonants -> move first 3 letter to the end and append 'ay'
 * begin with 'qu'         -> move first 2 letter to the end and append 'ay'
 * begin consonant + 'qu'  -> move first 3 letter to the end and append 'ay'
+* translate single word
+* translate multiple words
+* handle punctuation
 
 squeal -> ealsquay
