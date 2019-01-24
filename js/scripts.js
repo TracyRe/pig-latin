@@ -78,6 +78,7 @@ $(document).ready(function() {
 
     var text = $("input#input-txt").val();
     var result = translate(text);
+    $("div.output").show();
     $("p#output").text(result);
 
   });

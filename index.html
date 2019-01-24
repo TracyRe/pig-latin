@@ -10,16 +10,19 @@
     <title>Pig Latin Translator</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
 
       <div class="jumbotron">
         <h1>Pig Latin Translator</h1>
       </div>
       <form id="translator" action="index.html" method="post">
-        <input id="input-txt" type="text" name="input-txt" value="">
-        <button type="submit" name="button">Translate</button>
+        <input id="input-txt" class="input-txt" type="text" name="input-txt" value="">
+        <button type="submit" class="btn-primary" name="button">Translate</button>
       </form>
-      <p id="output"></p>
+
+      <div class="card output">
+        <p id="output"></p>
+      </div>
 
     </div>
   </body>
